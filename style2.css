@@ -1,0 +1,69 @@
+.line {
+    background-color: rgb(230, 157, 0);
+    color: #ffffff;
+    margin: 5px 0 10px 0;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+.container {
+    display: flex;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+.item {
+    width: 320px;
+}
+
+.phot_main {
+    width:300px;
+    margin: 10px;
+}
+
+.phot_sub .img{
+    display: flex;
+    width: 90px;
+}
+.phot_sub{
+    margin: 10px;
+}
+.main{
+    width: 640px;
+}
+.titel .hotel{
+    width: 300px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hotel_sub{
+    display: flex;
+    font-size: 10px;
+    justify-self: start;
+}
+
+.titel{
+display: flex;
+justify-content: space-between;
+}
+.hosi{
+    display: flex;
+}
+.suu{
+    color: #ff743d;
+    font-size: 20px;
+}
+.yon{
+    color: #ffd54b;
+    font-size: 20px;
+}
+.saiyasu{
+font-size: 5px;
+justify-content:flex-end;
+
+}
+.setumei{
+    font-size: 17px;
+    margin-top: 15px;
+}
