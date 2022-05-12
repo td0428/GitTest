@@ -18,52 +18,75 @@
 }
 
 .phot_main {
-    width:300px;
+    width: 300px;
     margin: 10px;
 }
 
-.phot_sub .img{
+.phot_sub .img {
     display: flex;
     width: 90px;
 }
-.phot_sub{
+
+.phot_sub {
     margin: 10px;
 }
-.main{
+
+.main {
     width: 640px;
 }
-.titel .hotel{
+
+.titel .hotel {
     width: 300px;
     font-size: 20px;
     margin-top: 10px;
 }
-.hotel_sub{
+
+.hotel_sub {
     display: flex;
     font-size: 10px;
     justify-self: start;
 }
 
-.titel{
-display: flex;
-justify-content: space-between;
-}
-.hosi{
+.titel {
     display: flex;
+    justify-content: space-between;
 }
-.suu{
+.titel_sub{
+    display: flex;
+    font-size: 10px;
+}
+.zizen{
+    color: #3db8ff;
+    border: 1px solid;
+}
+.gyara{
+    margin-left: 5px;
+    color: #858585;
+    border: 1px solid;
+}
+
+.hosi {
+    display: flex;
+    margin-top: 15px;
+}
+
+.suu {
     color: #ff743d;
     font-size: 20px;
 }
-.yon{
+
+.yon {
     color: #ffd54b;
     font-size: 20px;
 }
-.saiyasu{
-font-size: 5px;
-justify-content:flex-end;
+
+.saiyasu {
+    font-size: 5px;
+    justify-content: flex-end;
 
 }
-.setumei{
+
+.setumei {
     font-size: 17px;
     margin-top: 15px;
 }
