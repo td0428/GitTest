@@ -14,7 +14,8 @@ header img {
 }
 
 header div {
-    margin: 40px 30px 0 30px;
+    margin: 40px 0 0 20px;
+    font-size: 15px;
 }
 
 #main {
@@ -30,23 +31,28 @@ header div {
     width: 520px;
 }
 
+.sub_main {
+    display: flex;
+}
+
 .sub {
     background-color: rgb(236, 236, 236);
+    padding-right: 110px;
 }
-.pickup{
-    background-color: rgb(236, 236, 236);
-}
-.mozi{
-    color:rgb(214, 121, 0);
+
+.mozi {
+    color: rgb(214, 121, 0);
     display: flex;
     justify-content: space-between;
 }
-.koro{
+
+.koro {
     font-size: 11px;
     margin: 20px 0 20px 0;
 }
-.iti{
-    margin: 20px 0 20px 0;
+
+.iti {
+    margin: 20px 0 0 0;
 }
 
 .main_img {
@@ -57,29 +63,66 @@ header div {
     margin: 0;
     display: flex;
 }
-.sub_sub{
+.sub_img img{
+    margin-left: 5px;
+}
+
+.sub_sub {
     display: flex;
 }
-.sub_sub_img{
+
+.sub_sub_img {
     display: flex;
     font-size: 11px;
     background-color: #ffffff;
     margin: 5px;
     padding: 10px;
-    width:230px;
+    width: 230px;
 }
-.sub_sub_img img{
+
+.sub_sub_img img {
     width: 100px;
+    margin-right: 5px;
 }
-.pick{
-    
+
+.pickup {
+
+    margin: 5px 0 0 5px;
+    width: 155px;
+}
+
+.pick {
+    display: flex;
+    background-color: #ffffff;
+    padding: 5px 20px 5px 5px;
+}
+
+.pick div {
+    font-size: 11px;
+}
+
+.pick img {
+    width: 40px;
 }
 
 
 footer {
     width: 120px;
+    margin-top:10px ;
 }
-.f1{
+
+.f1 {
     display: flex;
     font-size: 11px;
+    margin: 5px 0 0 20px;
+    width: 100px;
+}
+
+.f1 .hosi {
+    font-size: 35px;
+    color: rgb(145, 106, 0);
+}
+
+.f1 .f_mozi {
+    margin-top: 5px;
 }
